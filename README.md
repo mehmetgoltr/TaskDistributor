@@ -3,13 +3,11 @@ Bu proje, iki mobil robotun GPS verilerini kullanarak merkezi bir bilgisayardan 
 
 🛠️ Sistemde yer alan bileşenler:
 
-2 adet Raspberry Pi 5 (robotlar)
-
+En az 2 adet Raspberry Pi 5
 Her robotta bir GPS modülü ve bir ultrasonik sensör
-
 Görevleri dağıtan merkezi bilgisayar
-
 ROS 2 (Jazzy) ile iletişim
+
 
 ✅ Temel Özellikler:
 
@@ -20,25 +18,24 @@ Merkezi görev dağıtımı (task_distributor.py)
 Engel algılama ve motor kontrolü ile hedefe yönelme (robot_controller.py)
 
 🧰 Donanım Gereksinimleri
-2 × Raspberry Pi 5 (Ubuntu yüklü)
+Raspberry Pi 5 (Ubuntu yüklü)
 
-2 × GY-NEO6MV2 GPS modülü
+GY-NEO6MV2 GPS modülü
 
-2 × HC-SR04 Ultrasonik sensör
+HC-SR04 Ultrasonik sensör
 
-4 × DC motor + Motor sürücü
+DC motor + Motor sürücü
 
-1 × Merkezi Bilgisayar (Ubuntu veya Windows)
+Merkezi Bilgisayar (Ubuntu)
 
-Güç kaynağı, jumper kablolar, breadboard vb.
 
 🛠️ Yazılım Kurulumu
-1. Projeyi Klonla
+1. Projeyi Klonlayın
  ``` 
 git clone https://github.com/kullanici_adi/coklu-robot-gps-task.git
 cd coklu-robot-gps-task
  ``` 
-2. Bağımlılıkları Yükle
+2. Bağımlılıkları Yükleyin
 Robotlarda (RPi5):
  ``` 
 sudo apt update
@@ -87,10 +84,15 @@ coklu-robot-gps-task/
  ``` 
 
 🎯 Proje Amacı
-Bu projenin amacı, GPS tabanlı lokalizasyon ve merkezi karar verme yoluyla görevlerin çoklu robotlara atanmasını sağlamaktır. Robotların birbirinden bağımsız hareket ederken görev paylaşımı yapabildiği bir temel senaryo uygulanmıştır.
+Bu projenin amacı, GPS tabanlı lokalizasyon ve merkezi karar verme yoluyla görevlerin çoklu robotlara atanmasını sağlamaktır. Robotların birbirinden bağımsız hareket ederken görev paylaşımı yapabildiği bir temel senaryo uygulanmıştır. 
+Bu proje, Marmara Üniversitesi Teknoloji Fakültesi Elektrik-Elektronik Mühendisliği Bölümü kapsamında, EEM7060.1 Çoklu Robot Sistemleri dersi için geliştirilmiştir.
 
-🤝 Katkı Sağla
-Her türlü katkıya açığız. Kodlara katkı sağlamak veya geri bildirimde bulunmak isterseniz lütfen pull request gönderin.
+# İletişim
+Mehmet Göl
+Şule Zeynep Aydın
+İzem Nur Budak
+
+Dr. Savaş Öztürk
 
 📄 Lisans
 MIT Lisansı
