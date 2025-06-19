@@ -32,7 +32,7 @@ Merkezi Bilgisayar (Ubuntu)
 ## Yazılım Kurulumu
 1. Projeyi Klonlayın
  ``` 
-git clone https://github.com/kullanici_adi/coklu-robot-gps-task.git
+git clone https://github.com/mehmetgoltr/TaskDistributor
 cd coklu-robot-gps-task
  ``` 
 2. Bağımlılıkları Yükleyin
