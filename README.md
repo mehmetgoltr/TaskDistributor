@@ -83,13 +83,15 @@ coklu-robot-gps-task/
 └── README.md
  ``` 
 
-🎯 Proje Amacı
+# 🎯 Proje Amacı
 Bu projenin amacı, GPS tabanlı lokalizasyon ve merkezi karar verme yoluyla görevlerin çoklu robotlara atanmasını sağlamaktır. Robotların birbirinden bağımsız hareket ederken görev paylaşımı yapabildiği bir temel senaryo uygulanmıştır. 
 Bu proje, Marmara Üniversitesi Teknoloji Fakültesi Elektrik-Elektronik Mühendisliği Bölümü kapsamında, EEM7060.1 Çoklu Robot Sistemleri dersi için geliştirilmiştir.
 
-# İletişim
+## İletişim
 Mehmet Göl
+
 Şule Zeynep Aydın
+
 İzem Nur Budak
 
 Dr. Savaş Öztürk
