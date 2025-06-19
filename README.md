@@ -1,5 +1,5 @@
 # MZI Task Distributor
-Bu proje, iki mobil robotun GPS verilerini kullanarak merkezi bir bilgisayardan görev aldığı ve hedefe yöneldiği basit ama işlevsel bir çoklu robot koordinasyon sistemini simüle eder.
+Bu çalışma, ROS 2 ara katman yazılımı kullanılarak geliştirilen, GPS koordinasyonuna dayalı, düşük maliyetli bir çoklu robot sisteminin tasarım ve uygulamasını sunmaktadır. 
 
 Sistemde yer alan bileşenler:
 
