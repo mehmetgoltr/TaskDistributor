@@ -33,7 +33,7 @@ Merkezi Bilgisayar (Ubuntu)
 1. Projeyi Klonlayın
  ``` 
 git clone https://github.com/mehmetgoltr/TaskDistributor
-cd coklu-robot-gps-task
+cd TaskDistributor
  ``` 
 2. Bağımlılıkları Yükleyin
 Robotlarda (RPi5):
@@ -50,25 +50,22 @@ sudo apt install python3-colcon-common-extensions
 Tüm cihazlarda:
  ``` 
 source /opt/ros/jazzy/setup.bash
+export ROS_DOMAIN_ID=30
+export ROS_DISCOVERY_SERVER=<Cihazın IP Adresi>
  ```
 
 ## Kullanım
-Robotlarda (Her Raspberry Pi'de)
-GPS modülünü USB üzerinden bağlayın.
-
-Ultrasonik sensörü GPIO pinlerine bağlayın.
-
 GPS veri yayıncısını başlatın:
 
  ``` 
 python3 gps_reader.py
  ```
 
-Robot kontrolcüsünü başlatın:
+Farklı bir terminalde Robot kontrolcüsünü başlatın:
  ``` 
 python3 robot_controller.py
  ``` 
-Merkezi Bilgisayarda
+Merkezi Bilgisayarda:
  ``` 
 python3 task_distributor.py
  ``` 
