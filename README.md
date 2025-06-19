@@ -1,4 +1,4 @@
-# TaskDistributor
+# MZI Task Distributor
 Bu proje, iki mobil robotun GPS verilerini kullanarak merkezi bir bilgisayardan görev aldığı ve hedefe yöneldiği basit ama işlevsel bir çoklu robot koordinasyon sistemini simüle eder.
 
 Sistemde yer alan bileşenler:
