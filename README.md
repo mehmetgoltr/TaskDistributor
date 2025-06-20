@@ -89,7 +89,7 @@ Mehmet Göl
 
 Şule Zeynep Aydın
 
-İzem Nur Budak
+İzemnur Budak
 
 Dr. Savaş Öztürk
 
