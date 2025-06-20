@@ -4,8 +4,11 @@ Bu çalışma, ROS 2 ara katman yazılımı kullanılarak geliştirilen, GPS koo
 Sistemde yer alan bileşenler:
 
 En az 2 adet Raspberry Pi 5
+
 Her robotta bir GPS modülü ve bir ultrasonik sensör
+
 Görevleri dağıtan merkezi bilgisayar
+
 ROS 2 (Jazzy) ile iletişim
 
 
